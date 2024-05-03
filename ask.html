@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Apology Letter</title>
+    <link rel="stylesheet" href="askstyle.css"> <!-- Link to your CSS file -->
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">Dear Aiza Ezrein,</h1>
+            <div class="letter_text">
+                <p>I want to start by saying that I am sorry for what happen this past few days, I banyak melawan, ego I tinggi , always want to win by hurting your feelings, klaie benda kecik dibesar-besarkan. Honestly I do all that because I am hurt by your action but that does not mean that I need to polah you kedak ya. I paham my action really hurt you and I really nyesal. Sampe you nyakit dirik kdk ya. I don't want to see that again. memang I nyesal. I want you to know that I paham that I pun salah sampe benda ya effect terok rah u.</p>
+
+                <p>I was too blind to prove my point until I didn't realize I was hurting you a lot. Your feelings and your happiness mean the world to me, and it breaks my heart knowing that I've caused you pain. I akan belajar dari kesilapan since i do not want you to get hurt anymore.</p>
+
+                <p>I promise to improve myself, segala kekurangan I sebagai boyfriend you. Dari segi communication kita, effort, respect(I am sorry I banyak nyumpah rah you time kita klaie I don't mean it since time ya I marah). I want to improve all of that with you. I really want to fix this mistake.</p>
+
+                <p>I miss you sayang, the loving you, the caring you. I really hate us right now. Please help me and you to rebuild this relationship to become more healthier. I know that we can do this. Let's talk so that we can solve this issue together and move on from this. If you're ready, please reply to me as fast as possible.</p>
+
+                <p>Thank you for taking your time to read this. I hope we can solve this. I want nothing more than to make things right with you.</p>
+
+                <p>Cepat jawabb, mok jawapan cepatt.</p>
+
+                <p>Your love,</p>
+                <p>[Arif]</p>
+                <p style="text-align: center;">Can you forgive me?</p>
+
+            </div>
+
+            <!-- "Will you forgive me?" section -->
+            <div class="buttons">
+                <button class="btn" id="yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
+            </div>
+
+            <script>
+                function nextPage() {
+                    window.location.href = "yes.html";
+                }
+
+                function moveButton() {
+                    const noButton = document.getElementById('noButton');
+                    const x = Math.random() * (window.innerWidth - noButton.offsetWidth) - 85;
+                    const y = Math.random() * (window.innerHeight - noButton.offsetHeight) - 48;
+                    noButton.style.position = 'absolute';
+                    noButton.style.left = `${x}px`;
+                    noButton.style.top = `${y}px`;
+                }
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
